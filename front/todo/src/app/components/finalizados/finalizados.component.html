@@ -1,0 +1,20 @@
+
+<div class="container">
+    <div class="voltar">
+        <button (click)="voltar()" mat-stroked-button
+        color="primary"><a routerLink="read-all"></a>Voltar</button>
+        <h1 aria-label="Text finished tasks">Tarefas finalizadas</h1>
+    </div>
+    
+    <div class="content" *ngFor="let item of listFinished">
+        <mat-card class="mat-card">
+            <p>Data para finalizar: {{item.dataParaFinalizar}}</p>
+            <mat-card-header>
+                <mat-card-title>{{item.titulo}}</mat-card-title>
+                <mat-card-subtitle>{{item.descricao}}</mat-card-subtitle>
+            </mat-card-header>
+        </mat-card>
+
+    </div>
+</div>
+

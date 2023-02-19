@@ -1,0 +1,43 @@
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 85%;
+    gap: 1rem;
+    margin: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.voltar  {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.voltar button {
+    margin: auto;
+    width: 100%;
+
+  }
+
+.content {
+  width: 49%;
+}
+
+.mat-card {
+  padding: 1rem;
+}
+
+p {
+  margin: 1rem 1rem 0;
+  text-align: end;
+  font-weight: 600;
+  color: rgb(174, 174, 174);
+}

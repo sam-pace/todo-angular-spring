@@ -1,0 +1,32 @@
+form {
+    width: 50%;
+    margin:  2rem auto 0 auto;
+    text-align: center;
+}
+
+.dataFinalizar {
+    text-align: start;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.form {
+    width: 100%;
+
+}
+
+.buttons {
+    width: 100%;
+    text-align: start;
+}
+
+button {
+    
+    margin-right: .5rem;
+    padding: 2rem auto auto 2rem;
+
+}
