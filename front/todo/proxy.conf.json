@@ -1,6 +1,6 @@
 {
     "/posts": {
-      "target": "http://localhost:8080",
+      "target": "https://sam-pace.github.io/todo-angular-spring/",
       "secure": true,
       "pathRewrite": {
       "^/posts": ""

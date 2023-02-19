@@ -1,4 +1,4 @@
 export const environment = {
     production: false,
-    baseUrl: 'http://www.todo-angular.com/todos/'
+    baseUrl: 'https://sam-pace.github.io/todo-angular-spring/'
   };
