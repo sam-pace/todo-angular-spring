@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.json",
-    "build": "ng build --configuration production --base-href /todo-angular-spring/",
+    "build": "ng build --configuration production --output-path docs --base-href /todo-angular-spring/",
     "watch": "ng build --watch --configuration development"
   },
   "private": true,
