@@ -4,7 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.json",
-    "build": "ng build --configuration production --output-path docs --base-href /todo-angular-spring/",
+    "build": "ng build --configuration production https://sam-pace.github.io/todo-angular-spring/",
+    "build:prod": "ng build --configuration production https://sam-pace.github.io/todo-angular-spring/",
+    "test:headless": "ng test --watch=false --browsers=ChromeHeadless",
     "watch": "ng build --watch --configuration development"
   },
   "private": true,
